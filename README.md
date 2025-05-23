@@ -81,5 +81,4 @@ GUI, **Tkinter** ile geliştirilmiştir ve şu özelliklere sahiptir:
 2. Projeyi klonlayın:
 
 ```bash
-git clone https://github.com/kullaniciadi/fuzzy-climate-control.git
-cd fuzzy-climate-control
+
