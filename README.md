@@ -1,6 +1,6 @@
-# 🔥❄️ Akıllı Isıtma ve Soğutma Kontrol Sistemi
+# Akıllı Isıtma ve Soğutma Kontrol Sistemi
 
-## 🧠 Proje Özeti
+## Proje Özeti
 
 Bu proje, oda içi sıcaklık koşullarını optimize etmek amacıyla geliştirilmiş, **bulanık mantık tabanlı** bir kontrol sistemidir. Kullanıcıdan alınan 5 farklı çevresel ve kişisel veriye göre, **ısıtma ve soğutma oranlarını otomatik olarak hesaplar**.
 
@@ -8,7 +8,7 @@ Geliştirilen sistem, geleneksel termostatlara kıyasla daha **esnek ve sezgisel
 
 ---
 
-## 🎯 Amaç
+## Amaç
 
 Modern yaşam alanlarında enerji verimliliğini korurken kullanıcı konforunu maksimize etmek. Bunun için:
 
@@ -18,7 +18,7 @@ Modern yaşam alanlarında enerji verimliliğini korurken kullanıcı konforunu 
 
 ---
 
-## 🔧 Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 | Teknoloji       | Açıklama                                 |
 |-----------------|------------------------------------------|
@@ -31,28 +31,28 @@ Modern yaşam alanlarında enerji verimliliğini korurken kullanıcı konforunu 
 
 ---
 
-## 🧮 Girdi Değişkenleri
+## Girdi Değişkenleri
 
 | Değişken            | Aralık         | Açıklama                                  |
 |---------------------|----------------|-------------------------------------------|
-| 🏠 Oda Sıcaklığı     | 10 – 35 °C     | Ortam içi sıcaklık                        |
-| 🌡️ Dış Sıcaklık      | –10 – 40 °C    | Dış hava sıcaklığı                        |
-| 🎚️ Konfor Tercihi   | 1 – 10         | 1 = serin seven, 10 = sıcak seven         |
-| 🕒 Günün Saati       | 0 – 24         | 0 = gece, 12 = öğle, 18 = akşam vb.       |
-| ⚡ Enerji Maliyeti   | 0.1 – 1.0 ₺    | Anlık elektrik birim fiyatı (₺/kWh)       |
+|  Oda Sıcaklığı     | 10 – 35 °C     | Ortam içi sıcaklık                        |
+|  Dış Sıcaklık      | –10 – 40 °C    | Dış hava sıcaklığı                        |
+|  Konfor Tercihi   | 1 – 10         | 1 = serin seven, 10 = sıcak seven         |
+|  Günün Saati       | 0 – 24         | 0 = gece, 12 = öğle, 18 = akşam vb.       |
+|  Enerji Maliyeti   | 0.1 – 1.0 ₺    | Anlık elektrik birim fiyatı (₺/kWh)       |
 
 ---
 
-## 🧾 Çıktı Değişkenleri
+## Çıktı Değişkenleri
 
 | Çıktı             | Aralık      | Açıklama                  |
 |------------------|-------------|---------------------------|
-| 🔥 Isıtma Gücü     | 0 – 100 %   | Isıtma sistemine gönderilecek güç seviyesi |
-| ❄️ Soğutma Gücü    | 0 – 100 %   | Soğutma sistemine gönderilecek güç seviyesi |
+|  Isıtma Gücü     | 0 – 100 %   | Isıtma sistemine gönderilecek güç seviyesi |
+|  Soğutma Gücü    | 0 – 100 %   | Soğutma sistemine gönderilecek güç seviyesi |
 
 ---
 
-## 🧠 Bulanık Mantık Yaklaşımı
+## Bulanık Mantık Yaklaşımı
 
 Proje, klasik if–else mantığı yerine **bulanık kurallar (fuzzy rules)** kullanır. Örneğin:
 
@@ -62,7 +62,7 @@ Toplamda **10 adet çok kriterli kural** kullanılmıştır. Girdiler, **üçgen
 
 ---
 
-## 🖥️ Arayüz (GUI)
+## Arayüz (GUI)
 
 GUI, **Tkinter** ile geliştirilmiştir ve şu özelliklere sahiptir:
 
@@ -75,7 +75,7 @@ GUI, **Tkinter** ile geliştirilmiştir ve şu özelliklere sahiptir:
 
 ---
 
-## 🚀 Kurulum Talimatları
+## Kurulum Talimatları
 
 1. Python 3.10+ yüklü olduğundan emin olun.
 2. Projeyi klonlayın:
